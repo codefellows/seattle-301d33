@@ -1,0 +1,12 @@
+.deck {
+    border:1px solid black;
+}
+
+@media screen and (min-width:768px) {
+
+    .deck.col-2 .card {
+        float:left;
+        width:40%;
+    }
+    
+}
