@@ -1,0 +1,51 @@
+nav {
+    background:#eee;
+    border-bottom: 1px solid #ccc;
+}
+
+nav li {
+    cursor:pointer;
+}
+
+nav > ul > li {
+    display:inline-block;
+    padding: 1em 3em;
+    position:relative;
+}
+
+nav > ul > li a {
+    color: #000;
+}
+
+nav > ul > li:hover {
+    background: #000;
+}
+
+nav > ul > li:hover a {
+    color: #fff;
+}
+
+nav > ul > li > ul {
+    display:none;
+}
+
+nav > ul > li:hover ul {
+    display:block;
+    position:absolute;
+    left:0;
+    top: 3em;
+    width:100%;
+}
+
+nav > ul > li:hover ul > li {
+    background:#525252;
+    padding:1em;
+}
+
+nav > ul > li:hover ul > li:hover {
+    background:#000;
+}
+
+a {
+    text-decoration:none;
+}
