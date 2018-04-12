@@ -9,7 +9,7 @@
 
 **Code review: Let's take a deep look at the previous lab assignment, with attention to execution order of the code. (Sam & John)**
 
-**Lightning Talk (John)**
+**Shred Talk (John)**
 
   ```10 minute break```
 
