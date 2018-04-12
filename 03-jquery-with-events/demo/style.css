@@ -1,0 +1,66 @@
+* {
+    box-sizing:border-box;
+}
+
+section {
+    display:none;
+}
+
+#todo ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#todo li {
+    cursor:pointer;
+    line-height:1.75em;
+    font-size:1.15em;
+    font-weight:bold;
+}
+
+#todo li:not(.complete) {
+    color:green;
+}
+#todo li.complete {
+    color:red;
+    font-weight:normal;
+    text-decoration:line-through;
+}
+
+
+#counter {
+    margin:auto;
+    overflow:none;
+    width: 300px;
+}
+
+#count {
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display:block;
+    font-size:3em;
+    font-weight:bold;
+    height:150px;
+    line-height:150px;
+    margin:auto;
+    text-align:center;
+    width:150px;
+}
+
+#count.negative {
+    color:red;
+}
+
+#count.positive {
+    color:blue;
+}
+
+#counter #add {
+    float:right;
+}
+
+#counter #subtract {
+    float:left;
+}
