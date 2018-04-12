@@ -1,7 +1,7 @@
-# Docker ... FTW!
+# CSS Positioning
 
-## What is it?
+If you want play around, start with this codepen sandbox.
 
-## Why do we care?
+Please FORK it.  Do not edit it directly.
 
-## Recommended Reading and/or Viewing
+https://codepen.io/johncokos/pen/mxgdOa
