@@ -1,0 +1,116 @@
+
+
+/* Stacked by default */
+.deck {
+    position:relative;
+}
+
+@media screen and (min-width:768px) {
+
+    .deck {
+        overflow:hidden;
+    }
+
+    .card {
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+
+    .deck.col-2 .card,
+    .deck.col-3 .card,
+    .deck.col-4 .card {
+        float:left;
+    }
+
+    /* 2 Column Cards */
+
+    .deck.col-2 .card {
+        width: 50%;
+    }
+
+    /* 3 Column Cards */
+
+    .deck.col-3 .card {
+        width:calc(100% / 3);
+    }
+
+    /* 4 Column Cards */
+    .deck.col-4 .card {
+        width: 25%;
+    }
+
+    /* Media Left and Right */
+    .card.media-left,
+    .card.media-right {
+       overflow:hidden;
+    }
+
+    .card figure {
+        display:inline-block;
+    }
+
+    .card.media-left figure,
+    .card.media-right figure {
+        display:block;
+    }
+
+    .card.media-left figure {
+        float:left;
+    }
+
+    .card.media-left .links {
+        clear:both;
+        float:right;
+    }
+
+    .card .links a {
+        display:inline-block;
+    }
+
+    .card.media-left .links a {
+        float:right;
+    }
+
+
+    .card.media-right figure {
+        float:right;
+    }
+
+    .card.media-right .links {
+        clear:both;
+        float:left;
+    }
+
+    .card.media-right .links a {
+        float:left;
+    }
+
+    .card.media-background {
+        overflow:unset;
+        position:relative;
+    }
+
+    .card.media-background figure {
+        bottom:0;
+        display:block;
+        height:100%;
+        left:0;
+        margin:0;
+        overflow:hidden;
+        position:absolute;
+        right:0;
+        top:0;
+        width:100%;
+        z-index:-1;
+    }
+
+    .card.media-background figure img {
+        width:100%;
+    }
+
+    .card.media-background figure figcaption {
+        display:none;
+    }
+
+}

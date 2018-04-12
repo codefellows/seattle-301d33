@@ -1,0 +1,121 @@
+/* Styles for cards and decks not related to the physical layout */
+
+.deck {
+    margin:0;
+    padding: 2em 0;
+}
+
+deck:after {
+    box-shadow: 0 8px 6px -6px #eee;
+    content: '';
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    text-align:center;
+}
+
+.card figure {
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    display:inline-block;
+    margin:1.5em;
+    text-align:center;
+}
+
+.card figcaption {
+    background:#fff;
+    box-shadow: 0 3px 2px #777;
+    font-style:italic;
+    line-height:2.5em;
+    margin-top:-.5em;
+    text-align:center;
+}
+
+.card header {
+    background:#eee;
+    border-bottom:1px solid #ccc;
+    font-weight:bold;
+    line-height:3em;
+    position:relative;
+    z-index:-1
+}
+
+.card .copy {
+    padding:1.5em;
+    text-align:left;
+}
+
+.card .links {
+    padding:1.5em 0;
+}
+
+.card .links a {
+    box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+    color:#000;
+    font-style:italic;
+    margin:0 .5em;
+    padding:1em 2em;
+    text-decoration:none;
+}
+
+.card .links a.primary {
+    background: #1EAEDB;
+    font-style:normal;
+    font-weight:bold;
+}
+
+.card.media-background header {
+    z-index:1;
+}
+
+
+/* In desktop, deal with Card spacing and padding */
+@media screen and (min-width:768px) {
+
+    /* 2 Column Cards */
+    .deck.col-2 .card {
+        margin: 0 1em;
+        width: calc(50% - 1.5em);
+    }
+
+    .deck.col-2 .card:first-child {
+        margin-right: .5em;
+    }
+
+    .deck.col-2 .card:last-child {
+        margin-left: .5em;
+    }
+
+    /* 3 Column Cards */
+    .deck.col-3 .card {
+        margin: 0 1em;
+        width: calc((100% / 3) - (4em / 3));
+    }
+
+    .deck.col-3 .card:nth-child(2) {
+        margin: 0;
+    }
+
+    /* 4 Column Cards */
+    .deck.col-4 .card {
+        margin: 0 .5em;
+        width: calc(25% - (5em / 4));
+    }
+
+    .deck.col-4 .card:first-child {
+        margin-left: 1em;
+    }
+
+    .deck.col-4 .card:last-child {
+        margin-right: 1em;
+    }
+
+    .card.media-left .links,
+    .card.media-right .links {
+        padding:1.5em;
+    }
+}

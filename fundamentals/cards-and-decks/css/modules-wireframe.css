@@ -1,0 +1,68 @@
+/* Styles for cards and decks not related to the physical layout */
+
+.deck {
+    border-bottom:1px solid black;
+    margin: 2em 0;
+}
+
+.card {
+    border: 1px solid red;
+}
+
+.card figure {
+    text-align:center;
+}
+
+.card .links {
+    text-align:center;
+}
+
+.card header {
+    background:#eee;
+    font-weight:bold;
+    line-height:3em;
+    text-align:center;
+}
+
+/* Card spacing and padding */
+@media screen and (min-width:768px) {
+
+    /* 2 Column Cards */
+    .deck.col-2 .card {
+        margin: 0 1em;
+        width: calc(50% - 1.5em);
+    }
+
+    .deck.col-2 .card:first-child {
+        margin-right: .5em;
+    }
+
+    .deck.col-2 .card:last-child {
+        margin-left: .5em;
+    }
+
+    /* 3 Column Cards */
+    .deck.col-3 .card {
+        margin: 0 1em;
+        width: calc((100% / 3) - (4em / 3));
+    }
+
+    .deck.col-3 .card:nth-child(2) {
+        margin: 0;
+    }
+
+    /* 4 Column Cards */
+    .deck.col-4 .card {
+        margin: 0 .5em;
+        width: calc(25% - (5em / 4));
+    }
+
+    .deck.col-4 .card:first-child {
+        margin-left: 1em;
+    }
+
+    .deck.col-4 .card:last-child {
+        margin-right: 1em;
+    }
+
+}
