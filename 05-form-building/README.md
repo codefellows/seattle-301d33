@@ -10,29 +10,43 @@ Note that we probably will not get to 100% functionality in our workshop today *
 We'll not work to a schedule, but instead work for an hour or so, take a break, etc., until we finish (or, more accurately, get as close to finished as we're going to get ;-) within our available time.
 
 ## Readings
-<!-- List of readings required for this content; readings being completed by the start of this lecture -->
 * *(There are no readings for this day)*
 
 ## Daily Plan
-<!-- Below is a template. Please delete, change, update as you see fit... -->
 - Notes:
+  - Feedback forms on the way
   - All the things are awesome!
-
+    - Mobile First thinking
+    - jQuery Library
+    - Traversing the DOM
+    - Add elements to the DOM
+    - Change classes of elements, toggle visibility
+    - Event Handling and Event driven design
+    - Many new ways to iterate (for, for-in, for-of, forEach)
+    - Regular Expressions 
+    - Arrow Functions
+    - Torture Strings
+    - CSS Layouts with float and flexbox
+    - CSS Horizontal Navs with drop downs
+    - CSS Positioning
+    - Plus all the stuff you already knew
+        - Vanilla JS
+        - Conditionals
+        - Object Literals
+        - JSON
+        - Constructor functions
+        - Using the console
+        - Debugging
 - Code Review
-- New Material
-- Code Demos
+- Shred Talks
+    - More fun with strings
+    - CSS vs Form Fields
 - Lab Preview
+    - Finish off the form
+    - UI Challenge
+    - Codewars (x2)
 
 ## Learning Objectives
-<!--
-ABCD:
-  Audience: Program participants
-  Behavior: Expected learning/behavior changes/results
-  Condition:
-    Circumstances that lead to change/result
-    When change/result are expected to occur
-  Degree: How much change occurs (%) for how many participants (#)
--->
 
 * Recap the primary concepts discussed throughout the week.
     * "What have you learned so far?"
