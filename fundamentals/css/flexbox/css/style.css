@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+section {
+  border: 1px solid #000;
+  margin: 1em;
+  padding: 1em;
+  height: 100%;
+}
+.card {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  height: 100%;
+}
+.card > * {
+  border: 1px solid #ccc;
+  padding: 1em;
+}
+.card header {
+  background: black;
+  color: white;
+  order: 2;
+}
+.card figure {
+  flex: 1;
+  order: 3;
+}
+.card .copy {
+  order: 4;
+}
+.card .links {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+}
