@@ -1,5 +1,8 @@
 # Developer Resources
 
+## Research and Such
+- [Hacker Newsletter](http://hackernewsletter.com/)
+
 ## Tools and Utilities
 - [Ipsum](https://www.webpagefx.com/web-design/html-ipsum/)
 - [Placeholder Images](http://placeholder.it)

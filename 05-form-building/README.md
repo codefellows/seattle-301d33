@@ -30,7 +30,13 @@ We'll not work to a schedule, but instead work for an hour or so, take a break, 
     - CSS Horizontal Navs with drop downs
     - CSS Positioning
     - Plus all the stuff you already knew
-        - Vanilla JS
+        - **GIT**
+        - **VANILLA JS**
+        - Vanilla Event Listeners
+        - DOM
+        - Alerts and Prompts
+        - HTML 
+        - Local Storage
         - Conditionals
         - Object Literals
         - JSON
