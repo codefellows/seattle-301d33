@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AJAX Search Engine</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script id="search-template" type="text/x-handlebars-template">
+            <li>
+                <header>
+                    <a href="{{url}}">{{name}}</a>
+                </header>
+                {{model}}
+            </li>
+        </script>
+    </head>
+    <body>
+        <main>
+            <form method="get">
+                <input type="text" name="q"  placeholder="Search Terms...." />
+            </form>
+
+            <section class="results">
+                <ul></ul>
+            </section>
+        </main>
+
+        <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

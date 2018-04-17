@@ -1,0 +1,31 @@
+main {
+    margin: 2em auto;
+    width: 70%;
+}
+
+form input {
+    margin:auto;
+    width: 80%;
+}
+
+.results ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.results li {
+    font-style:italic;
+    margin:1em 0;
+}
+
+.results li header {
+    font-size:1.5em;
+    font-style:normal;
+    font-weight:bold;
+    line-height:1.75em;
+}
+
+.results li header a {
+    color: navy;
+}

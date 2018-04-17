@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "title": "Sewell Automotive",
+      "url": "http://www.sewell.com",
+      "description": "Sewell has been the #1 luxury dealership for years"
+    },
+    {
+      "title": "Brotherton Cadillac",
+      "url": "http://www.brothertoncadillac.com",
+      "description": "The #1 Cadillac Dealer in Washington"
+    },
+    {
+      "title": "Mazda of Everett",
+      "url": "http://www.mazdaofeverett.com",
+      "description": "Budget priced, big buck zoom"
+    }
+  ]
+}
