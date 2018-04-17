@@ -17,10 +17,11 @@ Not a reading, but useful: [JSONLint](http://jsonlint.com/) is your friend when 
 
 
 ## Daily Plan
-<!-- Below is a template. Please delete, change, update as you see fit... -->
-- Notes:
-  - All the things are awesome!
-
+- Pairing Exercise
+- Shred Talk
+  - Array Traversal & Basic Eval
+- Alphabet Soup Recap
+  - CRUD, HTTP, AJAX, REST
 - Code Review
 - New Material
 - Code Demos
