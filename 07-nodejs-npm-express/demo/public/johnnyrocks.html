@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Demo</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="firstName" placeholder="first name" />
+        <input type="text" name="lastName" placeholder="last name"/>
+        <input type="text" name="city" placeholder="city" />
+        <button>Save It</button>
+    </form>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <script>
+
+        $(function(){
+
+          $('form').on('submit', (event) => {
+
+            event.preventDefault();
+
+            let data = {};
+
+            $('input').each( function() {
+              data[$(this).attr('name')] = $(this).val();
+            });
+
+            $.post("/articles", data)
+             .then( dataFromServer => console.log(dataFromServer))
+             .catch( err => console.error(err) );
+
+          });
+
+        });
+
+    </script>
+
+</body>
+</html>
