@@ -15,13 +15,10 @@
 * [SQL Cheat Sheet](http://www.cheat-sheets.org/sites/sql.su/) (Reference)
 
 ## Daily Plan
-<!-- Below is a template. Please delete, change, update as you see fit... -->
-- Notes:
-  - All the things are awesome!
-
+- .net 401 intro from Amanda
+- Karinne - 401 Information
 - Code Review
-- New Material
-- Code Demos
+- SQL!
 - Lab Preview
 
 ## Learning Objectives
