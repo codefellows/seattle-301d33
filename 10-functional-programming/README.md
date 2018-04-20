@@ -15,8 +15,10 @@
 - Notes:
   - All the things are awesome!
 
-- Code Review
-- New Material
+- Code Review (Nick)
+- Q&A on SQL and WRRC
+- Functional Programming Overview
+- Functional Array Methods: `.map()`, `.reduce()`, `.filter()`
 - Code Demos
 - Lab Preview
 
