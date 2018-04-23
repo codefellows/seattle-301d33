@@ -13,12 +13,13 @@
 ## Daily Plan
 <!-- Below is a template. Please delete, change, update as you see fit... -->
 - Notes:
-  - All the things are awesome!
-
+- Review module pattern, pass by reference
 - Code Review
-- New Material
-- Code Demos
-- Lab Preview
+- Deployments, FTW
+- Live Deployment Demo(s)
+- Deployment Workshop
+- Week Preview (Sam)
+- Lab Preview (Sam)
 
 ## Learning Objectives
 <!--
