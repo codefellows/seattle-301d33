@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Its Alive</title>
+</head>
+<body>
+<main>
+    Hello World
+</main>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+
+  (function(){
+    // let url = 'https://swapi.co/api/starships';
+    let url = 'https://cokos-301-gui-server.herokuapp.com/api/v1/tasks';
+    $.getJSON(url)
+    .then(ships => console.log(ships))
+    .catch( console.error );
+  })();
+
+</script>
+</body>
+</html>

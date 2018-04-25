@@ -1,0 +1,31 @@
+heroku create [name]
+  ** Creates an app and a git remote
+
+For an existing app
+  ** heroku git:remote -a [appname]
+
+https://devcenter.heroku.com/articles/git
+git remote -v
+git push heroku master
+  git push heroku [branch]:master
+
+https://devcenter.heroku.com/articles/heroku-postgresql#provisioning-heroku-postgres
+heroku addons
+heroku addons:create heroku-postgresql:hobby-dev
+heroku pg-info
+heroku pg:push todo postgresql-fitted-77327 --app cokos-301-todo-server
+    ** From the resources tab in Heroku GUI, not the ENV Settings
+
+
+CREATE DATABASE todo;
+
+\c todo;
+
+CREATE TABLE tasks ( id SERIAL PRIMARY KEY, task TEXT, complete BOOLEAN );
+
+INSERT INTO tasks (task, complete) VALUES
+('clean the fridge', false),
+('take out the trash', true),
+('pay the mortgage', false);
+
+SELECT * FROM tasks;
