@@ -13,10 +13,8 @@
 ## Daily Plan
 <!-- Below is a template. Please delete, change, update as you see fit... -->
 - Notes:
-  - All the things are awesome!
-
 - Code Review
-- New Material
+- Visual Map
 - Code Demos
 - Lab Preview
 

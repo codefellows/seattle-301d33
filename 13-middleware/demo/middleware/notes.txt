@@ -1,0 +1,46 @@
+'use strict';
+
+let doAllTheThings = [doSomeMath, doDifferentMath];
+
+page('*', parse);
+page('*', ...doAllTheThings)
+page('/', showTheIndex);
+// page('/', doSomeMath, doDifferentMath, showTheIndex);
+// page('/', () => doDifferentMath(showTheIndex));
+page();
+
+
+function parse(ctx, next) {
+
+  let args = decodeURI(ctx.querystring).split('&');
+
+  ctx.query = args.reduce( (args, arg) => {
+    let parts = arg.split('=');
+    args[parts[0]] = parts[1];
+    return args;
+  }, {});
+
+  next();
+}
+
+function doDifferentMath(ctx, next) {
+  console.log("doDifferentMath()", ctx);
+  let product = Math.floor(Math.random() * 10) * Math.floor(Math.random() * 10);
+  $("#steps").append(`<li>doDifferentMath() = ${product}</li>`);
+  if ( product > 20 ) { next(); }
+}
+
+function doSomeMath(ctx, next) {
+  console.log("doSomeMath()", ctx);
+  let sum = Math.floor(Math.random() * 10) + Math.floor(Math.random() * 10);
+  $("#steps").append(`<li>doSomeMath() = ${sum}</li>`);
+  if ( sum > 5 ) { next(); }
+}
+
+function showTheIndex(ctx) {
+  console.log("showTheIndex()", ctx);
+  $("#steps").append("<li>showTheIndex()</li>");
+  $("#index").fadeIn();
+}
+
+

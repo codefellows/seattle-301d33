@@ -1,0 +1,22 @@
+* {
+    box-sizing:border-box;
+}
+
+aside {
+    background:#fff;
+    border:1px solid black;
+    padding: .5em;
+    position:fixed;
+    right:1em;
+    width:250px;
+    top:1em;
+}
+
+section {
+    background:#ddd;
+    border: 1px solid #ccc;
+    display:none;
+    margin:1em;
+    padding:1.5em;
+    width: calc(100% - 4em - 250px);
+}

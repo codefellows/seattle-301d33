@@ -1,0 +1,47 @@
+h2 {
+    font-weight:bold;
+    font-size:2em;
+    text-transform:uppercase;
+}
+
+header {
+    background:#ccc;
+    border-bottom:1px solid #ddd;
+    height: 3em;
+    line-height:3em;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+header nav ul {
+    list-style-type:none
+}
+
+header nav ul li {
+    display:inline-block;
+    padding:0 2em;
+}
+
+.container {
+    display:none;
+}
+
+main {
+    margin-top:4.5em;
+}
+
+#items ul {
+    margin: 0 1.5em;
+}
+
+#items ul li {
+    color: dodgerblue;
+    font-weight:bold;
+    padding:.5em 0;
+}
+
+#items ul li.complete {
+    color: red;
+    font-style:italic;
+}
