@@ -9,14 +9,13 @@
 
 ## Daily Plan
 
-**Review of the course**
-
-- Think about if there are any topics you would like to review or revisit. We will open the second hour of class with those topics.
-- Where were we at the end of 201? [1](http://workoutchooser.site/) [2](https://ncarignan.github.io/Card-Fellows/) [3](https://ccloops.github.io/quiz-fellows/index.html) [4](https://queenskid.github.io/APFT-Coach/) [5](catfight.me) [6](http://layoutgenerator.online/) [7](https://willjreid.github.io/procrastinate/index.html) [8](https://twofacefear.github.io/dnd-character-creator/)
-
-**Code Review, Q&A, Booklist App Debugging **
+Discussion on Diversity with Brook Riggio, our VP of Education
 
 `BREAK (10 minutes)`
+
+**Review of the course**
+
+- Where were we at the end of 201? [1](https://ecaoile.github.io/busmall-memory/) [2](https://rhiannon98.github.io/PLC-Project/) [3](https://jasonb315.github.io/rock-paper-scissors-TIMEMACHINE/) [4](https://dekklin.github.io/201-Project/index.html) [5](https://emeryp.github.io/culture-fit/) [6](https://benbenbuhben.github.io/ResumeHackersv2/index.html) [7](https://jimmychang94.github.io/catOutOfTheBag/about-us.html) [8](https://khuynh92.github.io/chewsit/) [9](https://deliman206.github.io/fetch/) [10](https://jsilvas.github.io/timely/)
 
 **Any requested topics for more specific review? Let's make a list!**
 
@@ -36,6 +35,8 @@
 - [DroneStrike](https://whendronesattack.herokuapp.com/)
 - [Crime City](http://crime-city.herokuapp.com/)
 
+**Final Projects: Let's look at your ideas from [here](https://canvas.instructure.com/courses/1308147/discussion_topics/6456295?module_item_id=16516388)
+
 **Final projects: Let's go over the requirements!**
 
 - Day [16](https://github.com/codefellows/seattle-301d20/blob/master/16-project-week-day-1/README.md): Getting started
@@ -45,8 +46,6 @@
 - Day [20](https://github.com/codefellows/seattle-301d20/blob/master/19-project-week-day-4/README.md): Presentations! `Note: project requirements are in this document`
 - Do not forget the associated Canvas assignments! One is a group submission and the other is an individual submission!
 
-`BREAK (10 minutes)`
-
 **Additional topics related to final projects**
 
 - General API craziness
@@ -55,7 +54,7 @@
 - Reminder: [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
 - Another HTTP testing ground: [Postman](https://www.getpostman.com/)
 - The demo we did on the GitHub API would be useful if repurposed as an API sandbox to quickly get data to log into the console or view in the DOM, wouldn't it?
-- Wanna do something cool and next-level? Go buy a domain name and point it at your deployment! Suggested site to use: [NameCheap](https://www.namecheap.com/) has a lot of $0.88 domains!
+- Wanna do something cool and next-level? Go buy a domain name and point it at your deployment! A suggested site to use: [NameCheap](https://www.namecheap.com/) has a lot of $0.88 domains!
 
 ---
 
@@ -85,7 +84,7 @@
 	- Standup meeting with instructional staff sometime during the morning
 	- You should do at least one other standup with your team each day
 	- You will have a daily report to fill out and submit in Canvas at the end of each day: don't forget these!
-	- Some subset of the instructional staff will be available to you between 8:00a and 7:00p each day.
+	- Some subset of the instructional staff will be available to you between 8:00a and 6:00p each day.
 
 ## Learning Objectives
 <!--
