@@ -35,7 +35,7 @@ Discussion on Diversity with Brook Riggio, our VP of Education
 - [DroneStrike](https://whendronesattack.herokuapp.com/)
 - [Crime City](http://crime-city.herokuapp.com/)
 
-**Final Projects: Let's look at your ideas from [here](https://canvas.instructure.com/courses/1308147/discussion_topics/6456295?module_item_id=16516388)
+**Final Projects: Let's look at your ideas from [here]**(https://canvas.instructure.com/courses/1308147/discussion_topics/6456295?module_item_id=16516388)
 
 **Final projects: Let's go over the requirements!**
 
