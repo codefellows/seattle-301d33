@@ -7,3 +7,5 @@ page('/admin',
   (ctx) => app.adminView.initAdminPage());
 
 page();
+
+

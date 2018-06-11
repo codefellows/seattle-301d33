@@ -7,9 +7,14 @@ const pg = require('pg');
 // const conString = 'postgres://USER:PASSWORD@HOST:PORT/DBNAME';
 
 // Mac Users:
-const conString = 'postgres://localhost:5432/kilovolt';
+// const conString = 'postgres://localhost:5432/kilovolt';
+// const client = new pg.Client(conString);
 
-const client = new pg.Client(conString);
+const client = new pg.Client({
+  connectionString: 'postgres://ezvuivarzwkeoq:82dc26cf022ce3c0a17318c64437860374f91ecb7a883817e4fc03cf7ad88465@ec2-54-235-109-37.compute-1.amazonaws.com:5432/d3qdk6rce8e9hm',
+  ssl: true,
+});
+
 
 let createTable = () => {
   return client.query(`

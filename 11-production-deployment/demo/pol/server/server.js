@@ -16,7 +16,7 @@ app.use(cors());
 
 app.get('/', (req, res) => res.send('my api is great'));
 
-app.get('/api/v1/tasks', (req, res) => {
+app.get('/api/v1/tasks', express.urlencoded({extended:true}), (req, res) => {
   client.query(`SELECT * from books;`)
   .then(results => res.send(results.rows))
   .catch(console.error);

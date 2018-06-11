@@ -3,7 +3,9 @@
 (function(module) {
 
   function Task(obj) {
+
     Object.assign(this, obj);
+
   }
 
   Task.all = [];
@@ -23,8 +25,8 @@
   // callback is going to be: app.tasksView.initIndexPage
   Task.fetchAll = callback => {
     $.get(`${ENV.apiUrl}/api/v1/tasks`)
-    .then(Task.loadAll)
-    .then(callback)
+    .then( allTasks => Task.loadAll(allTasks) )  /// [{}, {}]
+    .then( tasks => callback(tasks) )
     .catch(errorCallback);
   };
 

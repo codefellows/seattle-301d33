@@ -3,12 +3,13 @@
 const ENV = {};
 const app = {};
 
-ENV.isProduction = window.location.protocol === 'https:';
-ENV.productionApiUrl = 'insert cloud API server URL here';
-ENV.developmentApiUrl = 'http://localhost:3000';
-ENV.apiUrl = ENV.isProduction ? ENV.productionApiUrl : ENV.developmentApiUrl;
+let productionApiUrl = 'https://cokos-server.herokuapp.com';
+let developmentApiUrl = 'http://localhost:3000';
 
-function show(section) {
-  $('section').not(`#${section}`).hide();
-  $(`#${section}`).show();
+ENV.isProduction = window.location.protocol === 'https:';
+ENV.apiUrl = ENV.isProduction ? productionApiUrl : developmentApiUrl;
+
+function show(id) {
+  $('section').not(`#${id}`).hide();
+  $(`#${id}`).show();
 }
